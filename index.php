@@ -48,8 +48,8 @@
 				            	$.each(username_list.items, function(key,value) {
 				            		outhtml = outhtml + '<div class="userlist clearfix">';
 				            		outhtml = outhtml + '<li>';
-				            		outhtml = outhtml + '<a href="https://jquerygithubapi.herokuapp.com//?username='+ value.login +'" target="_blank"><img src="'+ value.avatar_url +'" width="40" height="40" alt="'+ value.login +'"></a>';
-				             		outhtml = outhtml + '<a href="https://jquerygithubapi.herokuapp.com//?username='+ value.login +'" target="_blank"><h2>'+ value.login + '</h2></a>';
+				            		outhtml = outhtml + '<a href="https://jquerygithubapi.herokuapp.com/?username='+ value.login +'" target="_blank"><img src="'+ value.avatar_url +'" width="40" height="40" alt="'+ value.login +'"></a>';
+				             		outhtml = outhtml + '<a href="https://jquerygithubapi.herokuapp.com/?username='+ value.login +'" target="_blank"><h2>'+ value.login + '</h2></a>';
 				             		outhtml = outhtml + '</li>';
 				            	});
 				            	outhtml = outhtml + '</ul>';
